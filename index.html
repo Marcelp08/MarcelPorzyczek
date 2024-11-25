@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+      
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: url('background.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #ffffff;
+      }
+  
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 15px;
+        display: flex;
+        background-color: #333;
+      }
+  
+      li {
+        flex: 1;
+        text-align: center;
+      }
+  
+      li a {
+        display: block;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+      }
+  
+      li a:hover {
+        background-color: #575757;
+        color: #b08968;
+      }
+      .logo {
+      flex: 0;
+      margin-left: auto; 
+      display: flex;
+      align-items: center;
+      padding-right: 20px; 
+    }
+
+    .logo img {
+      max-height: 50px; 
+      width: auto;
+    }
+  
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+  
+      .left-box {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        margin-right: 20px;
+      }
+  
+      .image-box {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .image-box img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .description-box {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        border-radius: 10px;
+      }
+  
+      .right-box {
+        flex: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+      }
+  
+      .bottom-box {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+      }
+  
+  
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+          padding: 10px;
+        }
+  
+        .left-box {
+          margin-right: 0;
+        }
+  
+        .right-box {
+          margin-top: 20px;
+        }
+  
+        .description-box, .right-box, .bottom-box {
+          padding: 20px;
+        }
+  
+        ul {
+          flex-direction: column;
+        }
+  
+        li {
+          border-right: none;
+        }
+  
+        li a {
+          padding: 10px;
+          font-size: 16px;
+        }
+        .logo {
+        align-self: flex-end; 
+        padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+  
+    <ul>
+      <li><a class="#active" href="index.html">Our Company</a></li>
+      <li><a href="OurDevelopers.html">Our Developers</a></li>
+      <li><a href="Jobs.html">Our Jobs</a></li>
+      <li><a href="WorkWithUs.html">Apply to work with us</a></li>
+      <li><a href="Courses.html">Development Courses</a></li>
+       <li class="logo">
+      <img src="logo2.png" alt="Company Logo">
+    </li>
+    </ul>
+  
+
+    <div class="container">
+      <div class="left-box">
+        <div class="image-box">
+          <img src="webdevimage1.jpg" alt="Web development image">
+        </div>
+        <div class="description-box">At Hot Beans, we specialize in transforming ideas into engaging, user-friendly websites that drive growth and innovation. With a portfolio of over 500 custom-built websites delivered across 15+ countries, we have become a trusted partner for businesses looking to elevate their digital presence. Our work has earned prestigious accolades, including Best Responsive Design Firm (2023) and Innovator of the Year (2022), underscoring our commitment to excellence. We’ve helped clients achieve remarkable results, such as generating over $50 million in e-commerce sales and increasing organic traffic by an average of 40%. Known for creating high-performing websites with load times under two seconds, we combine technical expertise with creative vision to deliver seamless user experiences.</div>
+      </div>
+      <div class="right-box">
+        <h1><strong>Welcome to Hot Beans</strong></h1>
+      <p>At Hot Beans, we specialize in crafting innovative and high-performance websites tailored to meet the unique needs of your business. Our team of talented developers, creative designers, and digital strategists is committed to delivering custom solutions that ensure your online presence stands out. Whether you're starting from scratch or looking to enhance your existing site, Hot Beans is here to bring your vision to life with exceptional quality and precision.</p>
+      <H2><strong>Our Mission</strong></H2>
+      <P>Our mission at Hot Beans is to empower businesses with cutting-edge digital solutions that drive growth, engagement, and success. We are dedicated to creating websites that not only look great but also perform seamlessly across all devices. With a focus on user-centric design and the latest web technologies, we aim to deliver solutions that help you thrive in an increasingly digital world. Our goal is to provide outstanding service, foster long-term partnerships, and ensure every project exceeds expectations.</P>
+      <h2><strong> Our Services </strong></h2>
+      <P>At Hot Beans, we offer a full range of website development services designed to meet the diverse needs of businesses:</P>
+      <P><strong>Custom Website Design:</strong>We create visually stunning and intuitive websites that reflect your brand identity and engage your audience.</P>  
+      <p><strong>Custom Website Design:</strong> Our developers build scalable, high-performance websites using the latest technologies to ensure your site is fast, secure, and reliable.</p>
+      <p><strong>E-commerce Solutions:</strong> We design and develop e-commerce platforms that make online shopping a seamless and enjoyable experience for your customers.</p>
+      <P><strong>Content Management Systems (CMS):</strong> We implement easy-to-use CMS platforms that allow you to update and manage your website effortlessly.</P>
+      <P><strong>Web Applications:</strong> From simple tools to complex systems, we develop custom web applications that enhance your business operations.</P>
+      <P><strong>SEO and Digital Strategy:</strong> Our experts help optimize your site for search engines and provide strategies to increase your online visibility.</P>
+      <P>Hot Beans is committed to delivering exceptional digital experiences that help your business grow and succeed in the digital age.</P>
+      </div>
+    </div>
+  
+    <div class="bottom-box">
+      Hot Beans started as a late-night idea between two college friends fueled by coffee and a shared passion for web design, which inspired the company’s quirky name. Today, it’s a powerhouse in the industry, known for developing the first AI-assisted website builder tailored for small businesses, reducing design time by 50%. This innovation has helped hundreds of clients launch stunning, high-performing websites in record time.
+    </div>
+  </body>
+  </html>
+  

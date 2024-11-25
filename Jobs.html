@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Jobs</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url('background.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 15px;
+      display: flex;
+      background-color: #333;
+    }
+
+    li {
+      flex: 1;
+      text-align: center;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #575757;
+      color: #b08968;
+    }
+
+    .logo {
+      flex: 0;
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      padding-right: 20px; 
+    }
+
+    .logo img {
+      max-height: 50px;
+      width: auto;
+    }
+
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    
+    .box {
+      flex: 1;
+      margin: 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      height: auto; 
+      position: relative;
+    }
+
+   
+
+    
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      .box {
+        margin: 10px 0;
+        height: 300px;
+      }
+
+      ul {
+        flex-direction: column;
+      }
+
+      li {
+        border-right: none;
+      }
+
+      li a {
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      .logo {
+        align-self: flex-end; 
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <ul>
+    <li><a class="#active" href="index.html">Our Company</a></li>
+    <li><a href="OurDevelopers.html">Our Developers</a></li>
+    <li><a href="Jobs.html">Our Jobs</a></li>
+    <li><a href="WorkWithUs.html">Apply to work with us</a></li>
+    <li><a href="Courses.html">Development Courses</a></li>
+    <li class="logo">
+      <img src="logo2.png" alt="Company Logo">
+    </li>
+  </ul>
+
+
+  <div class="container">
+    <div class="box">
+     
+      <h2>Web Developer (Frontend)</h2>
+      <p><strong>Job Description:</strong> We are seeking a talented Frontend Web Developer to join our dynamic team. This role involves developing responsive layouts, collaborating with design and backend teams, ensuring cross-browser compatibility, and maintaining company websites.</p>
+      <h3>Responsibilities:</h3>
+      <ul>
+        <li>Develop responsive web layouts using HTML, CSS, and JavaScript.</li>
+        <li>Ensure compatibility across devices and browsers.</li>
+        <li>Collaborate with designers to bring mockups to life.</li>
+        <li>Maintain and improve existing websites.</li>
+      </ul>
+      <h3>Qualifications:</h3>
+      <ul>
+        <li>Proficient in HTML5, CSS3, and JavaScript.</li>
+        <li>Experience with responsive design and Flexbox/Grid.</li>
+        <li>Familiarity with version control (e.g., Git).</li>
+        <li>Attention to detail and strong problem-solving skills.</li>
+      </ul>
+    </div>
+
+    <div class="box">
+     
+      <h2>Backend Developer</h2>
+      <p><strong>Job Description:</strong> We're looking for a Backend Developer to join our tech team. You will be responsible for managing the server-side of our applications, ensuring data storage solutions are optimized, and integrating with third-party APIs.</p>
+      <h3>Responsibilities:</h3>
+      <ul>
+        <li>Design and manage server-side architecture.</li>
+        <li>Develop APIs and integrate with third-party services.</li>
+        <li>Optimize databases and ensure data security.</li>
+        <li>Collaborate with frontend developers to implement user-facing features.</li>
+      </ul>
+      <h3>Qualifications:</h3>
+      <ul>
+        <li>Experience with backend programming languages (e.g., Node.js, Python, Java).</li>
+        <li>Familiarity with database management systems (e.g., MySQL, MongoDB).</li>
+        <li>Experience with cloud computing platforms (e.g., AWS, Google Cloud).</li>
+        <li>Strong problem-solving and debugging skills.</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      
+      <h2>UI/UX Designer</h2>
+      <p><strong>Job Description:</strong> We are hiring a UI/UX Designer to create exceptional user experiences for our web and mobile applications. You will work closely with product teams to design user interfaces and ensure they are visually appealing and intuitive.</p>
+      <h3>Responsibilities:</h3>
+      <ul>
+        <li>Design intuitive user interfaces for web and mobile applications.</li>
+        <li>Create wireframes, prototypes, and high-fidelity mockups.</li>
+        <li>Conduct user research and usability testing to inform designs.</li>
+        <li>Work closely with developers to ensure designs are implemented accurately.</li>
+      </ul>
+      <h3>Qualifications:</h3>
+      <ul>
+        <li>Experience with design tools (e.g., Figma, Sketch, Adobe XD).</li>
+        <li>Strong understanding of user-centered design principles.</li>
+        <li>Experience with prototyping and wireframing tools.</li>
+        <li>Excellent communication and collaboration skills.</li>
+      </ul>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

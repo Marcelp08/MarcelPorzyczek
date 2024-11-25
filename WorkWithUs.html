@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work With Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url('background.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+
+   
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 15px;
+      display: flex;
+      background-color: #333;
+    }
+
+    li {
+      flex: 1;
+      text-align: center;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #575757;
+      color: #b08968;
+    }
+
+    .logo {
+      flex: 0;
+      margin-left: auto; 
+      display: flex;
+      align-items: center;
+      padding-right: 20px; 
+    }
+
+    .logo img {
+      max-height: 50px; 
+      width: auto;
+    }
+
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7); 
+      margin: 20px;
+      border-radius: 8px;
+    }
+
+    .left-box {
+      flex: 1;
+      padding: 20px;
+      background-color: #333;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+
+    .right-box {
+      flex: 1;
+      padding: 20px;
+      background-color: #333;
+      border-radius: 8px;
+    }
+
+    .form-container input,
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #575757;
+      border-radius: 4px;
+      background-color: #444;
+      color: white;
+    }
+
+    .form-container button {
+      background-color: #b08968;
+      cursor: pointer;
+      font-size: 1.2em;
+    }
+
+    .form-container button:hover {
+      background-color: #8b6f3b;
+    }
+
+    
+    .image-section img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+
+    
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      .left-box,
+      .right-box {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+      .form-container input,
+      .form-container button {
+        max-width: 100%;
+      }
+
+      .image-section img {
+        width: 100%;
+      }
+      ul {
+          flex-direction: column;
+        }
+  
+        li {
+          border-right: none;
+        }
+  
+        li a {
+          padding: 10px;
+          font-size: 16px;
+        }
+        .logo {
+        align-self: flex-end; 
+        padding: 10px;
+        }
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a class="#active" href="index.html">Our Company</a></li>
+    <li><a href="OurDevelopers.html">Our Developers</a></li>
+    <li><a href="Jobs.html">Our Jobs</a></li>
+    <li><a href="WorkWithUs.html">Apply to work with us</a></li>
+    <li><a href="Courses.html">Development Courses</a></li>
+    <li class="logo">
+      <img src="logo2.png" alt="Company Logo">
+    </li>
+  </ul>
+
+
+  <div class="container">
+  
+    <div class="left-box">
+      <h2>Job Application Form</h2>
+      <form class="form-container" action="#" method="POST">
+        <input type="text" name="firstName" placeholder="Your First Name" required>
+        <input type="text" name="lastName" placeholder="Your Last Name" required>
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <input type="text" name="address" placeholder="Your Home Address" required>
+        <input type="tel" name="phone" placeholder="Your Phone Number" required>
+        <button type="submit">Submit Application</button>
+      </form>
+    </div>
+
+  
+    <div class="right-box">
+      <h3>Our Work</h3>
+      <div class="image-section">
+        <img src="jobs1.jpg" alt="Image 1">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

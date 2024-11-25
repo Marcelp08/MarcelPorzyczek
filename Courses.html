@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Development Courses</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url('background.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 15px;
+      display: flex;
+      background-color: #333;
+    }
+
+    li {
+      flex: 1;
+      text-align: center;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #575757;
+      color: #b08968;
+    }
+
+    .logo {
+      flex: 0;
+      margin-left: auto; 
+      display: flex;
+      align-items: center;
+      padding-right: 20px; 
+    }
+
+    .logo img {
+      max-height: 50px; 
+      width: auto;
+    }
+
+    
+    .container {
+      display: flex;
+      padding: 20px;
+    }
+
+    .left-box {
+      flex: 2.5;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      margin-right: 20px;
+      overflow-y: auto; 
+    }
+
+    .right-box {
+      flex: 1;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      padding-top: 20px;
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    p {
+      color: #fff;
+    }
+
+    ul.courses-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul.courses-list li {
+      margin-bottom: 15px;
+    }
+
+    a.course-link {
+      color: #b08968;
+      text-decoration: none;
+    }
+
+    a.course-link:hover {
+      text-decoration: underline;
+    }
+
+    
+    @media (max-width: 768px) {
+      ul {
+        flex-direction: column;
+      }
+
+      li {
+        border-right: none;
+      }
+
+      li a {
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      .logo {
+        align-self: flex-end;
+        padding: 10px;
+      }
+
+      .container {
+        flex-direction: column;
+      }
+
+      .left-box, .right-box {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <ul>
+    <li><a class="#active" href="index.html">Our Company</a></li>
+    <li><a href="OurDevelopers.html">Our Developers</a></li>
+    <li><a href="Jobs.html">Our Jobs</a></li>
+    <li><a href="WorkWithUs.html">Apply to work with us</a></li>
+    <li><a href="Courses.html">Development Courses</a></li>
+    <li class="logo">
+      <img src="logo2.png" alt="Company Logo">
+    </li>
+  </ul>
+
+ 
+  <h1>Development Courses</h1>
+
+
+  <div class="container">
+    
+    <div class="left-box">
+      <h2>Recommended Web Development Courses</h2>
+
+      <ul class="courses-list">
+        <li>
+          <h3>1. <a class="course-link" href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp - Full Stack Web Development</a></h3>
+          <p>This free, comprehensive curriculum includes HTML, CSS, JavaScript, Databases, Node.js, React, and more. Perfect for beginners looking to dive into full-stack web development.</p>
+        </li>
+        <li>
+          <h3>2. <a class="course-link" href="https://www.udemy.com/course/the-web-developer-bootcamp/" target="_blank">The Web Developer Bootcamp (Udemy)</a></h3>
+          <p>Learn everything from the basics of web development to advanced topics like Express.js, MongoDB, and APIs. Great for anyone wanting to build a career in web development.</p>
+        </li>
+        <li>
+          <h3>3. <a class="course-link" href="https://www.coursera.org/specializations/web-design" target="_blank">Web Design for Everybody (Coursera)</a></h3>
+          <p>This beginner-friendly course covers web design principles, HTML5, CSS3, and responsive design. Ideal for those interested in web design with a focus on user experience.</p>
+        </li>
+        <li>
+          <h3>4. <a class="course-link" href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" target="_blank">Codecademy - Full Stack Engineer</a></h3>
+          <p>Master back-end and front-end technologies in this extensive Codecademy path. You'll work with React, Node.js, databases, and more to become a proficient full-stack developer.</p>
+        </li>
+        <li>
+          <h3>5. <a class="course-link" href="https://www.theodinproject.com" target="_blank">The Odin Project</a></h3>
+          <p>Offers a full-stack curriculum that covers HTML, CSS, JavaScript, and popular back-end frameworks like Ruby on Rails and Node.js. It’s a completely free course.</p>
+        </li>
+        <li>
+          <h3>6. <a class="course-link" href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">MDN Web Docs: Learn Web Development</a></h3>
+          <p>A fantastic set of tutorials from Mozilla for learning web development from scratch. Covers HTML, CSS, JavaScript, and more, with a focus on web standards and best practices.</p>
+        </li>
+      </ul>
+    </div>
+
+  
+    <div class="right-box">
+      <img src="courses.jpg" alt="Development Courses" style="width:100%; height:auto; border-radius: 10px;">
+    </div>
+  </div>
+</body>
+</html>
